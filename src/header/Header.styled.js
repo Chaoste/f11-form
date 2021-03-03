@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
-const HEADER_BACKGROUND_COLOR = "#A5A5FF";
-
 const HeaderStyled = styled.div`
-  background-color: ${HEADER_BACKGROUND_COLOR};
-  height: 80px;
+  background-color: #d5d5e5;
+  padding: 8px 24px;
   display: flex;
   flex-direction: row;
-  align-items: space-between;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 24px;
 
   @media screen and (min-width: 768px) {
-    height: 120px;
+    padding: 16px 24px;
   }
 `;
 
