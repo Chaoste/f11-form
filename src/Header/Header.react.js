@@ -1,6 +1,6 @@
-import Logo from "./logo/";
-import Title from "./title/";
-import LanguageToggle from "./languageToggle/";
+import Logo from "./Logo/";
+import Title from "./Title/";
+import LanguageToggle from "./LanguageToggle/";
 
 import HeaderStyled from "./Header.styled";
 
