@@ -3,9 +3,9 @@ import { IntlProvider } from "react-intl";
 import "antd/dist/antd.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Header from "./header/";
-import SupportForm from "./supportForm/";
-import Summary from "./summary/";
+import Header from "./Header";
+import SupportForm from "./SupportForm";
+import Summary from "./Summary";
 
 import { AppStyled } from "./App.styled";
 
