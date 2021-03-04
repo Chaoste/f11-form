@@ -1,14 +1,14 @@
 import logo from "./logo.jpeg";
 
-import LogoStyled from "./Logo.styled";
+import { LogoWrapperStyled } from "./Logo.styled";
 
 function Logo() {
   return (
-    <LogoStyled>
+    <LogoWrapperStyled>
       <a href="/">
         <img src={logo} alt="Factor Eleven" />
       </a>
-    </LogoStyled>
+    </LogoWrapperStyled>
   );
 }
 

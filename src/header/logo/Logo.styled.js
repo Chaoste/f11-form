@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const LogoStyled = styled.div`
+export const LogoWrapperStyled = styled.div`
   text-align: left;
   flex: 0 1 160px;
 
@@ -20,5 +20,3 @@ const LogoStyled = styled.div`
     }
   }
 `;
-
-export default LogoStyled;

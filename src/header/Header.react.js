@@ -1,6 +1,6 @@
-import Logo from "./logo/Logo.react";
-import Title from "./title/Title.react";
-import LanguageToggle from "./languageToggle/LanguageToggle.react";
+import Logo from "./logo/";
+import Title from "./title/";
+import LanguageToggle from "./languageToggle/";
 
 import HeaderStyled from "./Header.styled";
 
