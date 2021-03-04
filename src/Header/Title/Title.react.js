@@ -1,6 +1,6 @@
 import { FormattedMessage } from "react-intl";
 
-import TitleStyled from "./Title.styled";
+import { TitleStyled } from "./Title.styled";
 
 function Title() {
   return (

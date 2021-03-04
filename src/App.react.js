@@ -4,6 +4,7 @@ import "antd/dist/antd.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Header from "./Header";
+import Footer from "./Footer";
 import SupportForm from "./SupportForm";
 import Summary from "./Summary";
 
@@ -34,6 +35,7 @@ function App() {
               <Summary formValues={formValues} />
             </Route>
           </Switch>
+          <Footer />
         </AppStyled>
       </Router>
     </IntlProvider>

@@ -2,7 +2,7 @@ import Logo from "./Logo/";
 import Title from "./Title/";
 import LanguageToggle from "./LanguageToggle/";
 
-import HeaderStyled from "./Header.styled";
+import { HeaderStyled } from "./Header.styled";
 
 function Header({ locale, setLocale }) {
   return (

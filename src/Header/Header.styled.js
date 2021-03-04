@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HeaderStyled = styled.div`
+export const HeaderStyled = styled.div`
   background-color: #d5d5e5;
   padding: 8px 24px;
   display: flex;
@@ -14,5 +14,3 @@ const HeaderStyled = styled.div`
     padding: 16px 24px;
   }
 `;
-
-export default HeaderStyled;

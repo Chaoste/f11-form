@@ -1,6 +1,8 @@
 const messagesInGerman = {
   "app.pageTitle": "Support Form",
   "app.logo.alt": "Factor Eleven",
+  "app.footer.github": "GitHub",
+  "app.footer.visit": "Visit the repository",
 
   "app.form.field.name": "Name",
   "app.form.required.name": "Please input your name!",
