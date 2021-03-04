@@ -2,8 +2,11 @@ import styled from "styled-components";
 
 export const LanguageToggleStyled = styled.div`
   text-align: right;
-  flex: 0 1 160px;
   white-space: nowrap;
+  flex: 0 1 100px;
+  @media screen and (min-width: 768px) {
+    flex: 0 1 160px;
+  }
 `;
 
 export const LanguageButtonStyled = styled.button`
@@ -15,9 +18,12 @@ export const LanguageButtonStyled = styled.button`
   padding: 2px 8px;
 
   & img {
-    height: 18px;
+    height: 12px;
     opacity: 0.3;
     transition: all 200ms ease-in-out;
+    @media screen and (min-width: 768px) {
+      height: 18px;
+    }
 
     &:hover {
       opacity: 0.5;

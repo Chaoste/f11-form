@@ -9,7 +9,7 @@ export const FooterStyled = styled.div`
   align-items: center;
   justify-content: flex-end;
 
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 
