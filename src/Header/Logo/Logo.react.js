@@ -1,12 +1,21 @@
+import { useIntl } from "react-intl";
+
 import logo from "./logo.jpeg";
 
 import { LogoWrapperStyled } from "./Logo.styled";
 
 function Logo() {
+  const intl = useIntl();
+
   return (
     <LogoWrapperStyled>
       <a href="/">
-        <img src={logo} alt="Factor Eleven" />
+        <img
+          src={logo}
+          alt={intl.formatMessage({
+            id: "app.logo.alt",
+          })}
+        />
       </a>
     </LogoWrapperStyled>
   );

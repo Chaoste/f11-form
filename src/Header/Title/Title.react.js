@@ -5,7 +5,7 @@ import TitleStyled from "./Title.styled";
 function Title() {
   return (
     <TitleStyled>
-      <FormattedMessage id="app.pageTitle" defaultMessage="Support Form" />
+      <FormattedMessage id="app.pageTitle" />
     </TitleStyled>
   );
 }

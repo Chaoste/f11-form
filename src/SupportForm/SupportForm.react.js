@@ -48,7 +48,6 @@ function SupportForm({ onSubmit }) {
         <Form.Item
           label={intl.formatMessage({
             id: "app.form.field.name",
-            defaultMessage: "Name",
           })}
           name="name"
           rules={[
@@ -56,7 +55,6 @@ function SupportForm({ onSubmit }) {
               required: true,
               message: intl.formatMessage({
                 id: "app.form.required.name",
-                defaultMessage: "Please input your name!",
               }),
             },
           ]}
@@ -67,7 +65,6 @@ function SupportForm({ onSubmit }) {
         <Form.Item
           label={intl.formatMessage({
             id: "app.form.field.email",
-            defaultMessage: "Email address",
           })}
           name="email"
           rules={[
@@ -76,7 +73,6 @@ function SupportForm({ onSubmit }) {
               type: "email",
               message: intl.formatMessage({
                 id: "app.form.required.email",
-                defaultMessage: "Please input a valid email address!",
               }),
             },
           ]}
@@ -87,7 +83,6 @@ function SupportForm({ onSubmit }) {
         <Form.Item
           label={intl.formatMessage({
             id: "app.form.field.topic",
-            defaultMessage: "Topic",
           })}
           name="topic"
           rules={[
@@ -95,7 +90,6 @@ function SupportForm({ onSubmit }) {
               required: true,
               message: intl.formatMessage({
                 id: "app.form.required.topic",
-                defaultMessage: "Please select the topic of your request!",
               }),
             },
           ]}
@@ -104,19 +98,16 @@ function SupportForm({ onSubmit }) {
             <Select.Option value="general">
               {intl.formatMessage({
                 id: "app.form.field.topic.general",
-                defaultMessage: "General inquiry",
               })}
             </Select.Option>
             <Select.Option value="software">
               {intl.formatMessage({
                 id: "app.form.field.topic.software",
-                defaultMessage: "Software error",
               })}
             </Select.Option>
             <Select.Option value="recall">
               {intl.formatMessage({
                 id: "app.form.field.topic.recall",
-                defaultMessage: "Recall",
               })}
             </Select.Option>
           </Select>
@@ -126,7 +117,6 @@ function SupportForm({ onSubmit }) {
           <Form.Item
             label={intl.formatMessage({
               id: "app.form.field.version",
-              defaultMessage: "Version number",
             })}
             name="version"
             rules={[
@@ -135,8 +125,6 @@ function SupportForm({ onSubmit }) {
                 pattern: "\\d+\\.\\d+\\.\\d+",
                 message: intl.formatMessage({
                   id: "app.form.required.version",
-                  defaultMessage:
-                    "Bitte input a valid version number (e.g. 1.1.1)!",
                 }),
               },
             ]}
@@ -149,17 +137,14 @@ function SupportForm({ onSubmit }) {
           <Form.Item
             label={intl.formatMessage({
               id: "app.form.field.phone",
-              defaultMessage: "Phone number",
             })}
             name="phone"
             rules={[
               {
                 required: true,
                 pattern: "\\d{9,}",
-                type: "number",
                 message: intl.formatMessage({
                   id: "app.form.required.phone",
-                  defaultMessage: "Please input a valid phone number!",
                 }),
               },
             ]}
@@ -171,7 +156,6 @@ function SupportForm({ onSubmit }) {
         <Form.Item
           label={intl.formatMessage({
             id: "app.form.field.description",
-            defaultMessage: "Description",
           })}
           name="description"
           rules={[
@@ -180,8 +164,6 @@ function SupportForm({ onSubmit }) {
               min: 10,
               message: intl.formatMessage({
                 id: "app.form.required.description",
-                defaultMessage:
-                  "Please give a description with at least 10 letters!",
               }),
             },
           ]}
@@ -191,7 +173,7 @@ function SupportForm({ onSubmit }) {
 
         <Form.Item {...tailLayout}>
           <Button type="primary" htmlType="submit">
-            <FormattedMessage id="app.form.submit" defaultMessage="Submit" />
+            <FormattedMessage id="app.form.submit" />
           </Button>
         </Form.Item>
       </Form>
